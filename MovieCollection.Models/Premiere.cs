@@ -11,5 +11,6 @@ namespace MovieCollection.Models
         public Country Country { get; set; }
         public int MovieId { get; set; }
         public Movie Movie { get; set; }
+        public string PremiereDescription { get; set; }
     }
 }
