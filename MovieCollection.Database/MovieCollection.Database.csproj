@@ -13,4 +13,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MovieCollection.Models\MovieCollection.Models.csproj" />
+  </ItemGroup>
+
 </Project>
