@@ -18,6 +18,9 @@ namespace MovieCollection.Database
             modelBuilder.Entity<MoviePeople>()
                 .HasKey(t => new { t.PeopleId, t.MovieId });
 
+            modelBuilder.Entity<Premiere>()
+                .HasKey(t => new { t.Country, t.MovieId });
+
             modelBuilder.Entity<MoviePeople>()
                 .HasOne(mv => mv.Movie)
                 .WithMany(mv => mv.MoviePeoples)

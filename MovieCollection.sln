@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.UI", "MovieCollection.UI\MovieCollection.UI.csproj", "{9D77BD62-07BE-4700-A7DE-3F344C583599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCollection.UI", "MovieCollection.UI\MovieCollection.UI.csproj", "{9D77BD62-07BE-4700-A7DE-3F344C583599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.Database", "MovieCollection.Database\MovieCollection.Database.csproj", "{20F82D0B-D9ED-4A75-86F0-B08DA773D5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCollection.Database", "MovieCollection.Database\MovieCollection.Database.csproj", "{20F82D0B-D9ED-4A75-86F0-B08DA773D5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.Models", "MovieCollection.Models\MovieCollection.Models.csproj", "{2B5C0DC7-9049-4E4C-8AED-2F3C60E9FD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCollection.Models", "MovieCollection.Models\MovieCollection.Models.csproj", "{2B5C0DC7-9049-4E4C-8AED-2F3C60E9FD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCollection.Application", "MovieCollection.Application\MovieCollection.Application.csproj", "{ED7AAB36-92D5-41CD-8254-C17E2DBEE688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2B5C0DC7-9049-4E4C-8AED-2F3C60E9FD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B5C0DC7-9049-4E4C-8AED-2F3C60E9FD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B5C0DC7-9049-4E4C-8AED-2F3C60E9FD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7AAB36-92D5-41CD-8254-C17E2DBEE688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7AAB36-92D5-41CD-8254-C17E2DBEE688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7AAB36-92D5-41CD-8254-C17E2DBEE688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7AAB36-92D5-41CD-8254-C17E2DBEE688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
